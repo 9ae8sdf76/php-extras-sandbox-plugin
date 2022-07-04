@@ -1,0 +1,17 @@
+{
+  "name": "php-extras/php-extras-sandbox-plugin",
+  "description": "A PHP/Composer plugin used by php-extras-sandbox",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "kstanley",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "PhpExtras\\Sandbox\\Plugin": "./src"
+  }
+}
